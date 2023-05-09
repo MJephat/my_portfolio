@@ -60,7 +60,7 @@ background: var(--color-light);
 transition: var(--transition);
 }
 
-section:nth-child(even){
+section:nth-child(even) {
 background: var(--color-white);
 }
 
