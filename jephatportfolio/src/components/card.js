@@ -1,9 +1,11 @@
 import React from 'react'
 import "./card.css"
 
-function card() {
+function card({children, className, onclick}) {
   return (
-  <article className='card'></article>
+  <article className={`card ${className}`} onClick={onclick}>
+    {children}
+  </article>
   )
 }
 

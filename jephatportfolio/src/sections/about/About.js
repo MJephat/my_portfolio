@@ -2,6 +2,8 @@ import React from 'react'
 import passport from "../../pic/passport.png"
 import cv from "../../doc/cv.docx"
 import {AiOutlineDownload} from "react-icons/ai"
+import Card from "../../components/card"
+import data from "./data"
 import "./about.css"
 
 const About = () => {
@@ -15,7 +17,17 @@ const About = () => {
           </div>
         <div className="about__right"> 
         <h2>About Me</h2>
-        <div className="about__cards"></div>
+        <div className="about__cards">
+          {
+            data.map(item=>(
+              <Card key={item.id} className="about__card">
+                <span className='about__card-icon'>{item.icon}</span>
+                <h5>{item.title}</h5>
+                <small>{item.desc}</small>
+              </Card>
+            ))
+          }
+        </div>
         <p>
         My name is Jephat, and I’m a career writer. My job is to provide 
         job seekers with expert advice on career-related topics. I read a 
