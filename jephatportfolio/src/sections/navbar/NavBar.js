@@ -1,5 +1,5 @@
 import React from 'react'
-// import Myphoto from "../../../public/pic/Myphoto.png"
+import Logo from "../../pic/ogol.png"
 import "./navbar.css"
 import data from "./data"
 import {IoIosColorPalette} from "react-icons/io"
@@ -10,7 +10,7 @@ function NavBar() {
     <nav>
       <div className="container nav__container">
         <a href="index.html" className='nav__logo'>
-          <img src={"../../../public/pic/${Myphoto}.png"} alt="logo"/>
+          <img src={Logo} alt="logo"/>
         </a>
         <ul className='nav__menu'>
           {
