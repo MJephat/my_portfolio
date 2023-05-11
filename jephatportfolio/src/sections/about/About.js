@@ -30,12 +30,11 @@ const About = () => {
         </div>
         <p>
         My name is Jephat, and I’m a career writer. My job is to provide 
-        job seekers with expert advice on career-related topics. I read a 
-        lot and consult recruiting professionals so you don’t have to. I show
-         you how to hack the recruitment process, create a job-winning resume, 
-         ace the job interview, and... introduce yourself, among others.
+        and deliver whatever specification my client ask for in their request.
         </p>
-        <p>
+        <p> I am a junior frontend software Engineer. I write codes using these
+          tecnologies Reactjs,HTML,CSS,JavaScript,json.</p>
+        {/* <p>
         “My name is Jane Smith. I’m a software engineer currently based 
         in Berlin but originally from Tokyo. I have six years of experience
          with Java and Kotlin, and I hold a Blue Card to work across the EU.
@@ -43,7 +42,7 @@ const About = () => {
           where I worked primarily with Java. Presently, I work as a Backend Engineer 
           at Y corp in Berlin with Kotlin and Dart for testing. I’m a big fan of the MCU, 
           and I’m looking for my next Java opportunity in Berlin.”
-        </p>
+        </p> */}
         <a href={cv} download className='btn primary'>Download cv<AiOutlineDownload/></a>
         </div>
        </div>

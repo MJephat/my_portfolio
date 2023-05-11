@@ -12,10 +12,13 @@ function Header() {
         </div>
         <h3>Jephat M. Maina</h3>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-          when an unknown printer took a galley of type and scrambled it to make a type 
-          specimen book.
+        Welcome!
+        Hello! My name is Jephat M. Maina and am a frontend developer based in Nairobi, Kenya. I 
+        have developed several applications since i started this journey. Some of my project are on my 
+        portfolio section and your are free to check them out on live demo.
+        </p>
+        <p>I am passionate about cutting-edge, perfect, beautiful interfaces and intutively implemented UX.
+          I am also pleased by clear and clean code.
         </p>
 
           <div className="header__cta">
