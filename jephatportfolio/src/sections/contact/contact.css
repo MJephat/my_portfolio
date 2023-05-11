@@ -52,6 +52,13 @@ input, textarea {
     /* border: 2px solid var(--color-primary-variant); */
     resize: none;
 }
+
+.container__responce{
+    font-size: 1.5rem;
+    color: rgb(13, 233, 13)
+}
+
+
 /* media queries on tablets */
 @media screen and (max-width:1024px) {
     .container.contact__container{

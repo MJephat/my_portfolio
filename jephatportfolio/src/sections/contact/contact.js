@@ -1,6 +1,6 @@
 import React from 'react'
 import {MdEmail} from "react-icons/md"
-import {AiFillInstagram} from "react-icons/ai"
+import { useState } from "react"
 import {AiFillMessage} from "react-icons/ai"
 import {AiOutlineWhatsApp} from "react-icons/ai"
 import { useRef } from 'react';
@@ -9,6 +9,7 @@ import emailjs from "emailjs-com"
 import "./contact.css"
 
 const Contact = () => {
+  const [done, setDone] = useState(false);
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
@@ -16,6 +17,7 @@ const Contact = () => {
     emailjs.sendForm('service_yholch9', 'template_cpu4sij', form.current, 'P5mR7AVgMLSigOV8E')
       .then((result) => {
           console.log(result.text);
+          setDone(true);
       }, (error) => {
           console.log(error.text);
       });
@@ -53,7 +55,7 @@ const Contact = () => {
           <input type="email" name="email" placeholder="Your Email" required />
           <textarea name='message' rowr="7" placeholder='Your message' required></textarea>
           <button type="submit" className='btn btn primary'>Send message</button>
-
+          <span className='container__responce'>{done && 'Thank you for contacting Jephat!'}</span>
         </form>
        </div>
        </section>
