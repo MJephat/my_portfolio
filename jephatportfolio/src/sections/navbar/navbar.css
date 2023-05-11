@@ -11,7 +11,7 @@ nav{
     box-shadow:0 1rem 1.5rem hsla(var(--primary-hue),
     68%, 42%, 20%);
     transition: var(--transition);
-    background: rgb(90, 75, 184);
+    background: rgb(37, 121, 186);
 }
 
 .nav__container{
