@@ -1,3 +1,6 @@
+#About{
+    background: rgb(247, 243, 243);
+}
 .about__container{
     display: grid;
     grid-template-columns: 35% 53%;

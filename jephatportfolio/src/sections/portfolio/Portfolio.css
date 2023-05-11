@@ -1,3 +1,7 @@
+#portfolio{
+    background: rgb(247, 243, 243);
+}
+
 .portfolio__container{
     display: grid;
     grid-template-columns: repeat(3,1fr);

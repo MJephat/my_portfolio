@@ -1,6 +1,7 @@
 .footer{
     background-color: var(--container-color);
     border-top: 1px solid rgba(0,0,0,0.1);
+    background: rgb(90, 75, 184);
 }
 .footer__container{
     padding:2rem 0 6rem
@@ -44,6 +45,7 @@
     color: var(--title-color);
     text-align: center;
     font-size: var(--smaller-font-size);
+    background-color: rgb(152, 163, 172);
 
 }
 

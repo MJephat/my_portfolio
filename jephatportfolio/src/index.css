@@ -7,13 +7,15 @@
   text-decoration:none ;
   box-sizing: border-box;
 }
+ 
+
 
 :root{
-  background: rgb(109, 109, 182);
-  --primary-hue: 270;
-  --black-lightness: 15%;
-  /* --dark-lightness: 44%; */
-  /* --light-lightness: 94%; */
+   /* background: rgb(109, 109, 182);  */
+  --primary-hue:560;
+  --black-lightness: 55%;
+  --dark-lightness: 20%; 
+   --light-lightness: 94%; 
   --white-lightness: 100%;
   --color-primary: hsl(var(--primary-hue),89%, 41%);
   --color-white: hsl(0, 5%, var(--white-lightness));
@@ -61,9 +63,9 @@ background: var(--color-light);
 transition: var(--transition);
 }
 
-section:nth-child(even) {
+/* section:nth-child(even) {
 background: var(--color-white);
-}
+} */
 
 section > h2 {
   text-align: center;
@@ -77,7 +79,8 @@ width: 40%;
 
 /* general sections style */
 a{
-  /* color: var(--color-white); */
+  color: black;
+  font-size: 1.2rem;
   transition: var(--transition);
 }
 

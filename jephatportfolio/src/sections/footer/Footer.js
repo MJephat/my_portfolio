@@ -9,7 +9,7 @@ function Footer() {
       <h1 className="footer__title">Jephat</h1>
 
       <ul className="footer__list">
-        <li><a href="#about" className="footer__link">About</a></li>
+        <li><a href="#About" className="footer__link">About</a></li>
         <li><a href="#portfolio" className="footer__link">Projects</a></li>
         <li><a href="#testmonials" className="footer__link">Testmonials</a></li>
       </ul>

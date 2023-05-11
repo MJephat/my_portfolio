@@ -1,3 +1,7 @@
+#Contact{
+    background: rgb(247, 243, 243);
+}
+
 .container.contact__container{
     width: 58%;
     display:grid;

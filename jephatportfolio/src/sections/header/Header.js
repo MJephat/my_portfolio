@@ -19,7 +19,7 @@ function Header() {
         </p>
 
           <div className="header__cta">
-            <a href= "#contact" className="btn primary">let's talk</a>
+            <a href= "#Contact" className="btn primary">let's talk</a>
             <a href= "#portfolio" className='btn light'>my work</a>
           </div>
           <div className='header__socials'>
