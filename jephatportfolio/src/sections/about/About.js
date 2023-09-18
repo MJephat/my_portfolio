@@ -1,6 +1,6 @@
 import React from 'react'
 import passport from "../../pic/passport.png"
-import cv from "../../doc/cv.docx"
+import cv from "../../doc/cv.pdf"
 import {AiOutlineDownload} from "react-icons/ai"
 import Card from "../../components/card"
 import data from "./data"
@@ -28,12 +28,13 @@ const About = () => {
             ))
           }
         </div>
-        <p>
-        My name is Jephat, and I’m a career writer. My job is to provide 
-        and deliver whatever specification my client ask for in their request.
-        </p>
-        <p> I am a junior frontend software Engineer. I write codes using these
-          tecnologies Reactjs,HTML,CSS,JavaScript,json.</p>
+       
+        <p> I am a highly motivated and detail-oriented Junior Software Developer with a strong foundation
+in programming and a passion for building robust and scalable applications. Proficient in
+Python, JavaScript, React, HTML, CSS, with experience in database management, API
+development, and server-side scripting. Committed to continuous learning and growth, seeking
+an opportunity to contribute to dynamic development teams and expand my expertise in back-
+end development.</p>
         {/* <p>
         “My name is Jane Smith. I’m a software engineer currently based 
         in Berlin but originally from Tokyo. I have six years of experience
