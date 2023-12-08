@@ -1,6 +1,6 @@
 import React from 'react'
 import passport from "../../pic/passport.png"
-import cv from "../../doc/cv.pdf"
+import cv from "../../doc/Jephat Mukundi cv.pdf"
 import {AiOutlineDownload} from "react-icons/ai"
 import Card from "../../components/card"
 import data from "./data"

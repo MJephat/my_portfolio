@@ -1,5 +1,5 @@
 import React from 'react'
-import HeaderImage from "../../pic/Myphoto.png"
+import HeaderImage from "../../pic/Myphoto1.png"
 import data from './data'
 import "./Header.css"
 
